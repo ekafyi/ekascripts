@@ -1,0 +1,5 @@
+.DS_Store
+.vscode/
+
+# Don't commit scripts with personal info
+*.localonly.*

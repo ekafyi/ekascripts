@@ -1,2 +1,3 @@
 # ekascripts
-Personal utility scripts for Raycast
+
+Personal utility [scripts](https://github.com/raycast/script-commands) for [Raycast](https://www.raycast.com)
