@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title ekaworks
+# @raycast.mode silent
+
+# Optional parameters:
+# @raycast.icon 💻
+
+# Documentation:
+# @raycast.author Eka
+
+targetPath="$HOME/Documents/42.03/Dev.nosync/repo-name"
+
+# open repo URL with default browser
+open https://github.com/user/repo-name/actions &
+
+# open in Finder
+open $targetPath &
+
+# open in VSCode
+# reference: https://github.com/raycast/script-commands/blob/master/commands/developer-utils/vscode/open-project-in-vscode.sh
+open -n -b "com.microsoft.VSCode" --args $targetPath &
+
+# open dir in CLI
+open -a /Applications/Warp.app $targetPath &
+
+exit 0
