@@ -26,7 +26,8 @@ open -n -b "com.microsoft.VSCode" --args $targetPath &
 # open dir in CLI
 open -a /Applications/Warp.app $targetPath &
 
-# open Slack
+# open Slack + Chrome
 open /Applications/Slack.app &
+open /Applications/Google\ Chrome.app &
 
 exit 0
